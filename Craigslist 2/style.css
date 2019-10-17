@@ -1,0 +1,308 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+* {
+    box-sizing: border-box;
+    border-radius: 5px;   
+  
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table; 
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    background-color: #262525;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #262525;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color: #262525;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: #262525;
+    color: #ffffff;
+    text-align: center;
+    font-size: 5px;
+    padding: 10px;
+    background-color: #262525;;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+.footertext {
+  font-size: 20px
+}
+
+
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  .logo {
+width: 160px;
+ 
+  }
+
+  .item1:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+    }
+    
+    .item2:hover {
+      text-decoration: underline;
+      color: antiquewhite;
+      }
+    
+    .item3:hover {
+      text-decoration: underline;
+      color: antiquewhite;
+      }
+    
+    .item4:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+    }    
+    
+    .item5:hover {
+      text-decoration: underline;
+      color: antiquewhite;
+      } 
+
+    .item6:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+    } 
+
+    .item7:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+    } 
+
+    .sidebarlist {
+    border-radius: 5px;   
+    }
+
+/* Search Bar */
+
+form {
+  float: right
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 80%;
+  background: #f1f1f1;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  
+  
+}
+
+/* Style the submit button */
+form.example button {
+  float: right;
+  /* width: %; */
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  /* border-left: none; /* Prevent double borders */ 
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.iphone {
+  border-radius: 50%;
+}
+
+/* Columns */
+
+* {
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+
+  padding: 0 5px;
+  display:grid;
+  grid-template-columns:  1fr 1fr;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (min-width: 600px) {
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bottomlist {
+  list-style: none;
+}
+
+.bottomlist li {
+  display: inline-block;
+}
+
+
+.calender {
+margin-left: 75px
+}
+
+
+
+
+/*
+
+.bottomlistone {
+  list-style: none;
+}
+
+.bottomlistone li {
+  display: inline-block;
+}
+
+*/
+
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
